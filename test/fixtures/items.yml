@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  model: MyString
+  maker: MyString
+  purdate: 2018-03-21
+  rest: 1
+
+two:
+  model: MyString
+  maker: MyString
+  purdate: 2018-03-21
+  rest: 1

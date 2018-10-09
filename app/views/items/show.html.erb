@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+<% instance = Item.new %>
+<p>
+  <strong>型番:</strong>
+  <%= @item.model %>
+</p>
+
+<p>
+  <strong>メーカー:</strong>
+  <%= @item.maker %>
+</p>
+
+<p>
+  <strong>注文日付:</strong>
+  <%= @item.purdate %>
+</p>
+
+<p>
+  <strong>期間:</strong>
+  <%= @item.rest %>年
+</p>
+
+<p>
+  <strong>残り期間:</strong>
+  <%= instance.restofdays(@item.rest,@item.purdate) %>日
+</p>
+
+<%= link_to '編集', edit_item_path(@item) %> |
+<%= link_to '戻る', items_path %>

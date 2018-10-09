@@ -1,0 +1,36 @@
+ja:
+  activerecord:
+    models:
+      item: "基板"  #g
+
+    attributes:
+      item:
+        maker: "メーカー"  #g
+        model: "型番"  #g
+        purdate: "注文日付"  #g
+        rest: "期間"  #g
+
+  label:
+    item:
+     purdate: "注文日付"
+     maker: "メーカー"
+     model: "型番"
+     rest: "期間"
+     List: "基板リスト"
+     New: "新規追加"
+     Editing: "編集"
+
+    link:
+    　New: "新規追加"
+    　Show: "表示"
+    　Edit: "編集"
+    　Destroy: "削除"
+    　Back: "前画面"
+
+    button:
+    　Create: "新規追加"
+    　Update: "更新"
+
+    message:
+    　SaveError: "件のエラーが発生しました"
+    　DeleteConfirm: "削除しますか?"
